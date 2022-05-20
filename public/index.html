@@ -1,1 +1,51 @@
-<h1>Sarah's Tiny Website</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <script src="NavBar.js" type="module"></script>
+    <title>Sarah's Tiny Website</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.8.1/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.8.1/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.8.1/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.8.1/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.8.1/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.8.1/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.8.1/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.8.1/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.8.1/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.8.1/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+  </head>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./hobbies/hobbies.html">Hobbies</a>
+  </nav>
+  <header>
+    <h1>Sarah's Tiny Website</h1>
+  </header>
+  <body>
+  <article>
+    <p>
+      Hi, I'm Sarah a full stack developer living in Western New York.
+    </p>
+    <p>
+      After reading about "Tiny Websites" on <a href="https://tinyprojects.dev/posts/tiny_websites_are_great">tinyprojects.dev</a>, I was
+      inspired to create my own. So that is what this site is, a quick and dirty website built with only HTML and CSS and
+      deployed using Google's Firebase. <br>
+    </p>
+    <p>
+      Since moving to New York from Massachusetts I have taken an interest in bird watching, bird photography, and hiking.
+    </p>
+
+  </article>
+  </body>
+</html>

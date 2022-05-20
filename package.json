@@ -1,0 +1,7 @@
+{
+  "name": "tiny-website",
+  "version": "1.0.0",
+  "dependencies": {
+    "firebase": "^9.8.1"
+  }
+}

@@ -1,0 +1,16 @@
+html {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    margin: 4em 10em 4em 10em; /*	em means relative to the font-size of the element */
+    height: 100%;
+    background-color: #fef9f8;
+}
+nav a {
+    padding-right: 4em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 1em;
+}
